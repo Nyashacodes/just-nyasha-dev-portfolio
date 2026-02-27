@@ -1,0 +1,110 @@
+.job-list {
+    padding-top: 20px;
+}
+
+.tabs-container {
+    display: flex;
+    min-height: 350px;
+}
+
+.job-tabs {
+    width: 250px;
+    border-left: 2px solid rgba(0, 0, 0, 0.1);
+    margin-right: 50px;
+}
+
+.rs-nav-subtle.rs-nav-vertical .rs-nav-item {
+    text-align: left;
+    padding: 15px 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    border-left: 2px solid transparent;
+    margin-left: -2px;
+}
+
+.rs-nav-subtle.rs-nav-vertical .rs-nav-item.rs-nav-item-active {
+    color: var(--primary-color) !important;
+    background-color: rgba(9, 132, 227, 0.05);
+    border-left: 2px solid var(--primary-color);
+}
+
+.tab-content {
+    flex: 1;
+}
+
+.job-header {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.job-title {
+    color: var(--text-color);
+}
+
+.job-company {
+    color: var(--primary-color);
+}
+
+.job-duration {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9rem;
+    color: var(--secondary-color);
+    margin-bottom: 25px;
+}
+
+.job-description {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.job-description li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 12px;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--secondary-color);
+}
+
+.job-description li::before {
+    content: "▹";
+    position: absolute;
+    left: 0;
+    color: var(--primary-color);
+}
+
+@media (max-width: 768px) {
+    .tabs-container {
+        flex-direction: column;
+    }
+
+    .job-tabs {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+        border-left: none;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+        display: flex;
+        overflow-x: auto;
+    }
+
+    .rs-nav-vertical {
+        display: flex !important;
+        flex-direction: row !important;
+    }
+
+    .rs-nav-item {
+        white-space: nowrap;
+        border-left: none !important;
+        border-bottom: 2px solid transparent;
+        margin-left: 0 !important;
+        margin-bottom: -2px;
+    }
+
+    .rs-nav-item.rs-nav-item-active {
+        border-bottom: 2px solid var(--primary-color) !important;
+    }
+}

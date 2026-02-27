@@ -29,10 +29,13 @@ const NavBar = () => {
                     </Link>
                 </Nav.Item>
                 {/* Socials included inside the same pulled-right Nav to ensure they are together on the right */}
-                <Nav.Item>
-                    <ExternalLinks />
-                </Nav.Item>
+
             </Nav>
+
+            <Nav><Nav.Item>
+                <ExternalLinks />
+            </Nav.Item></Nav>
+
         </Navbar>
     );
 };

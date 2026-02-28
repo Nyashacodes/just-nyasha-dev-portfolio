@@ -1,10 +1,16 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=NTR&display=swap');
 
 :root {
-  --background-color: #f8f9fa;
-  --text-color: #2d3436;
-  --primary-color: #0984e3;
-  --secondary-color: #636e72;
+  --background-color: #1B211A;
+  --text-color: #EBD5AB;
+  --primary-color: #8BAE66;
+  --secondary-color: #628141;
 }
 
 body {

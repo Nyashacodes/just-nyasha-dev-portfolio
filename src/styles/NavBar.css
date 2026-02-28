@@ -1,0 +1,39 @@
+.navbar {
+    background-color: transparent !important;
+    padding: 20px 50px !important;
+}
+
+.nav-links .rs-nav-item {
+    font-size: 1.1rem !important;
+    background: transparent !important;
+    /* Forces background to be transparent */
+}
+
+.nav-links .rs-nav-item a,
+.nav-links .rs-nav-item span,
+.nav-links .rs-nav-item div {
+    color: var(--text-color) !important;
+    /* Force EBD5AB */
+    text-decoration: none !important;
+    transition: all 0.3s ease !important;
+    background: transparent !important;
+}
+
+.nav-links .rs-nav-item:hover a,
+.nav-links .rs-nav-item:hover span,
+.nav-links .rs-nav-item:hover div {
+    color: var(--primary-color) !important;
+    background: transparent !important;
+    opacity: 0.8;
+}
+
+/* Remove any active state backgrounds from rsuite */
+.rs-nav-item-active,
+.rs-nav-item-active:hover {
+    background: transparent !important;
+}
+
+.rs-nav-item-active a,
+.rs-nav-item-active span {
+    color: var(--primary-color) !important;
+}

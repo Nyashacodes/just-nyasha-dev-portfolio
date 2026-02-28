@@ -1,5 +1,6 @@
 import React from "react";
 import FadeInSection from "./FadeInSection";
+import myImg from "../assets/me.jpeg";
 import "../styles/About.css";
 
 const About = () => {
@@ -40,7 +41,7 @@ const About = () => {
                         </ul>
                     </div>
                     <div className="about-image">
-                        <img src="/assets/me.jpg" alt="Gazi Jarin" />
+                        <img src={myImg} alt="Nyasha Gupta" />
                     </div>
                 </div>
             </FadeInSection>

@@ -61,7 +61,7 @@
 }
 
 .intro-contact:hover {
-    background-color: rgba(9, 132, 227, 0.1);
+    background-color: rgba(139, 174, 102, 0.1);
 }
 
 @media (max-width: 768px) {

@@ -7,7 +7,7 @@ const Projects = () => {
         "TaskSphere": {
             desc: "An intelligent task organizer with multi-user support, priority management, scheduling, and automated cleanup. Deployed with CI/CD on Netlify.",
             techStack: "React.js, Node.js, Express, MongoDB",
-            link: "https://github.com/Nyashacodes/TaskSphere",
+            link: "https://github.com/Nyashacodes/my-todo.git",
             open: ""
         },
         "VisionChat AI": {

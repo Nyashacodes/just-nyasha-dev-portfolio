@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/just-nyasha-dev-portfolio/static/css/main.f6aa5eb3.css",
+    "main.js": "/just-nyasha-dev-portfolio/static/js/main.34ed7590.js",
+    "static/media/me.jpeg": "/just-nyasha-dev-portfolio/static/media/me.5c35347313b1360de9ab.jpeg",
+    "static/media/nya (1).png": "/just-nyasha-dev-portfolio/static/media/nya (1).663ac325071e24e8b366.png",
+    "index.html": "/just-nyasha-dev-portfolio/index.html",
+    "main.f6aa5eb3.css.map": "/just-nyasha-dev-portfolio/static/css/main.f6aa5eb3.css.map",
+    "main.34ed7590.js.map": "/just-nyasha-dev-portfolio/static/js/main.34ed7590.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6aa5eb3.css",
+    "static/js/main.34ed7590.js"
+  ]
+}
